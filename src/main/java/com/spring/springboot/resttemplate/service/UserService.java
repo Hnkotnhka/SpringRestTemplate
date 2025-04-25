@@ -13,7 +13,6 @@ public class UserService {
 
     private static final String BASE_URL = "http://94.198.50.185:7081/api/users";
     
-    @Autowired
     private final RestTemplate restTemplate;
 
     public UserService (RestTemplate restTemplate) {
