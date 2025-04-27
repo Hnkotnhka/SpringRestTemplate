@@ -15,6 +15,7 @@ public class UserService {
     
     private final RestTemplate restTemplate;
 
+    @Autowired
     public UserService (RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
