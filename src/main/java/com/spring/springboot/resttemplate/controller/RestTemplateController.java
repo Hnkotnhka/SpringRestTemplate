@@ -9,6 +9,7 @@ public class RestTemplateController {
 
     private final UserService userService;
 
+    @Autowired
     public RestTemplateController(UserService userService) {
         this.userService = userService;
     }
